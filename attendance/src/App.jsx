@@ -62,9 +62,12 @@ function App() {
 
   return (
     <div className="Attendance-Container">
-      <h2>ATTENDANCE</h2>
+      <h2>WORK ATTENDANCE</h2>
       <h1>{currentTime.toLocaleTimeString()}</h1>
       <h3>Check In Here</h3>
+      <p>A Minute Late Is A Salary Cut</p>
+      <p>You Only Have Yourself To Blame</p>
+       <p>Thank You</p>
       <div className="input-container">
         <input
           type="text"
